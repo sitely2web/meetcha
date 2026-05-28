@@ -1,44 +1,74 @@
-# Meetcha Bubble Tea Cafe
+# 🧋 Meetcha Bubble Tea Cafe
 
-A static marketing website for Meetcha Bubble Tea Cafe, located at 5960 W Parker Rd, Plano, TX.
+> **Boba worth meeting.** — A fast, beautiful static website for Meetcha Bubble Tea Cafe in Plano, TX.
 
-## Pages
+---
 
-Single-page layout with the following sections:
-- **Hero** — full-bleed photo with headline and CTA
-- **Menu** — full menu across Milk Tea, Fruit Tea, Lemonade, Brewed Tea, Smoothies, Slushes, and Toppings
-- **Testimonials** — customer reviews
-- **Find Us** — address, hours, phone, and embedded Google Map
+## ✨ About
 
-## Stack
+Meetcha is a beloved bubble tea cafe serving fresh milk teas, fruit teas, smoothies, slushes, and more at **5960 W Parker Rd, Plano, TX 75093**. This website brings their vibrant menu and cozy vibe to the web — no frameworks, no fuss.
 
-Plain HTML, CSS, and JavaScript — no frameworks or build tools.
+---
+
+## 📄 Sections
+
+| Section | Description |
+|---|---|
+| 🖼️ **Hero** | Full-bleed photo with a punchy headline and CTA |
+| 🍵 **Menu** | Complete menu — milk teas, fruit teas, lemonades, brewed teas, smoothies, slushes & toppings |
+| 💬 **Testimonials** | Real customer reviews on a dark, high-contrast backdrop |
+| 📍 **Find Us** | Address, hours, phone number, and an embedded Google Map |
+
+---
+
+## 🗂️ File Structure
 
 ```
-index.html
-css/
-  reset.css       — baseline reset
-  tokens.css      — design tokens (colours, spacing, typography)
-  style.css       — all component styles
-js/
-  main.js         — scroll nav transition + IntersectionObserver fade-ins
-assets/
-  images/         — hero and storefront photos
-  boba.png        — favicon
+meetcha-website/
+├── index.html              # Single-page site
+├── css/
+│   ├── reset.css           # Baseline CSS reset
+│   ├── tokens.css          # Design tokens (colours, spacing, type)
+│   └── style.css           # All component & layout styles
+├── js/
+│   └── main.js             # Scroll nav + IntersectionObserver fade-ins
+└── assets/
+    ├── images/             # Hero & storefront photography
+    └── boba.png            # Favicon
 ```
 
-## Design
+---
 
-- **Fonts:** Plus Jakarta Sans (headings) · DM Sans (body) via Google Fonts
-- **Colours:** Cream `#F5F0EA` · Black `#1C1C1C` · Green `#7AC231` · Coral `#E8836A`
-- **Motion:** CSS opacity + translateY fade-ups triggered by IntersectionObserver, no library
+## 🎨 Design
 
-See [DECISIONS.md](DECISIONS.md) for full design rationale.
+- **Typography:** Plus Jakarta Sans (headings) · DM Sans (body) via Google Fonts
+- **Colour Palette:**
+  - 🟤 Cream `#F5F0EA` — warm page background
+  - ⚫ Black `#1C1C1C` — nav, footer, primary text
+  - 🟢 Green `#7AC231` — primary brand accent
+  - 🟠 Coral `#E8836A` — secondary accent
+- **Motion:** Smooth fade-up animations via IntersectionObserver — zero JavaScript libraries
+- **Layout:** Fully responsive, mobile-first
 
-## Running locally
+> See [DECISIONS.md](DECISIONS.md) for full design rationale and reference brands.
 
-No build step — just open `index.html` in a browser, or serve with any static file server:
+---
+
+## 🚀 Running Locally
+
+No build step required — just open `index.html` in your browser, or spin up a local server:
 
 ```bash
 npx serve .
 ```
+
+---
+
+## 📸 Photo Credits
+
+- Hero: [Nguyễn Tiến Thịnh](https://www.pexels.com/photo/refreshing-iced-thai-tea-in-lush-garden-setting-33241823/) on Pexels
+- Find Us: [Kseniya Buraya](https://www.pexels.com/photo/drinks-in-plastic-cups-9980151/) on Pexels
+
+---
+
+<p align="center">Made with 🧋 for Meetcha · Plano, TX</p>
