@@ -1,0 +1,52 @@
+:root {
+  /* Colour */
+  --cream:    #F5F0EA;
+  --black:    #1C1C1C;
+  --green:    #7AC231;
+  --green-dk: #4A7A1E;
+  --coral:    #E8836A;
+  --mid:      #5C5C5C;
+  --white:    #FFFFFF;
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+
+  --size-display:    clamp(52px, 8vw, 88px);
+  --size-heading:    clamp(32px, 5vw, 52px);
+  --size-subheading: clamp(20px, 3vw, 28px);
+  --size-body:       17px;
+  --size-label:      12px;
+  --size-caption:    14px;
+  --size-price:      15px;
+
+  --weight-extrabold: 800;
+  --weight-bold:      700;
+  --weight-medium:    500;
+  --weight-regular:   400;
+
+  --lh-display:    0.95;
+  --lh-heading:    1.05;
+  --lh-subheading: 1.2;
+  --lh-body:       1.65;
+
+  /* Spacing */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  16px;
+  --space-4:  24px;
+  --space-5:  32px;
+  --space-6:  48px;
+  --space-7:  64px;
+  --space-8:  96px;
+  --space-9:  128px;
+  --space-10: 192px;
+
+  /* Layout */
+  --container: 1200px;
+  --gutter:    24px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.25, 0, 0, 1);
+  --duration: 400ms;
+}
